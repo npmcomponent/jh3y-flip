@@ -1,0 +1,10 @@
+.flip {
+	height: 200px;
+	width: 200px;
+}
+.myFront {
+	background: red;
+}
+.myBack {
+	background: green;
+}
