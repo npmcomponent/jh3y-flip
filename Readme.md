@@ -33,6 +33,8 @@ Refer to the [demo](http://jsfiddle.net/qCfVH/) or message me if you're stuck :)
 
 It's not hard to add extra flip behaviour. You could easily make your flip flip upon click by adding a click listener to `someElement` which simply invokes `flip`.
 
+###vertical flipping
+
 flip will flip horizontally by default but if you want vertical flipping, simply add the class `vertical` to your flip element.
 
 ## API
