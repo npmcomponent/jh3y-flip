@@ -29,9 +29,11 @@ Only use the above if using with the [component package manager](https://github.
 	var myFlip = new flip(someElement); // create a flip where someElement is the parent container.
 	myFlip.flip(); //flip it.
 
+All that is left is for you to style your content. If you dont define a height and width for your content it may not display properly.
+
 Refer to the [demo](http://jsfiddle.net/qCfVH/) or message me if you're stuck :)
 
-It's not hard to add extra flip behaviour. You could easily make your flip flip upon click by adding a click listener to `someElement` which simply invokes `flip`.
+It's not hard to add extra flip behaviour. You could easily make your flip flip upon click by adding a click listener to `someElement` which simply invokes `flip()`.
 
 ###vertical flipping
 
