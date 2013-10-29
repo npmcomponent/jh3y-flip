@@ -12,7 +12,9 @@ A demo of flip can be seen [here](http://jsfiddle.net/qCfVH/).
 
     $ component install jheytompkins/flip
 
-## Usage
+##Usage
+###Element structure
+Use with an element structure like the following:
 
 	<div id="flip">
 		<div>becomes the front panel</div>
@@ -20,18 +22,25 @@ A demo of flip can be seen [here](http://jsfiddle.net/qCfVH/).
 		<div></div>    //wouldn't be used
 	</div>
 
-Use with or without [component package manager](https://github.com/component/component). Simply pass in an element div that contains two or more divs. The first two divs will become the front and back panel respectively.
+### Usage with [component package manager](https://github.com/component/component)
+Simply pass in an element div that contains two or more divs. The first two divs will become the front and back panel respectively.
 
 	var flip = require('flip') //ONLY REQUIRED IF USING COMPONENT PACKAGE MANAGER
+	var myFlip = new flip(someElement); // create a flip where someElement is the parent container.
+	myFlip.flip(); //flip it.
 
-Only use the above if using with the [component package manager](https://github.com/component/component), else simply do something like the following;
+It's not hard to add extra flip behaviour. You could easily make your flip flip upon click by adding a click listener to `someElement` which simply invokes `flip`.
+
+Refer to the [demo](http://jsfiddle.net/qCfVH/) or message me if you're stuck :)
+
+###Usage without component package manager
 
 	var myFlip = new flip(someElement); // create a flip where someElement is the parent container.
 	myFlip.flip(); //flip it.
 
-Refer to the [demo](http://jsfiddle.net/qCfVH/) or message me if you're stuck :)
-
 It's not hard to add extra flip behaviour. You could easily make your flip flip upon click by adding a click listener to `someElement` which simply invokes `flip`.
+
+Refer to the [demo](http://jsfiddle.net/qCfVH/) or message me if you're stuck :)
 
 ###vertical flipping
 
