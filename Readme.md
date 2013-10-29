@@ -13,7 +13,7 @@ A demo of flip can be seen [here](http://jsfiddle.net/qCfVH/).
     $ component install jheytompkins/flip
 
 ##Usage
-###Element structure
+###element structure
 Use with an element structure like the following:
 
 	<div id="flip">
@@ -22,7 +22,7 @@ Use with an element structure like the following:
 		<div></div>    //wouldn't be used
 	</div>
 
-### Usage with [component package manager](https://github.com/component/component)
+### usage with [component package manager](https://github.com/component/component)
 Simply pass in an element div that contains two or more divs. The first two divs will become the front and back panel respectively.
 
 	var flip = require('flip') //ONLY REQUIRED IF USING COMPONENT PACKAGE MANAGER
@@ -33,7 +33,7 @@ It's not hard to add extra flip behaviour. You could easily make your flip flip 
 
 Refer to the [demo](http://jsfiddle.net/qCfVH/) or message me if you're stuck :)
 
-###Usage without component package manager
+###usage without component package manager
 
 	var myFlip = new flip(someElement); // create a flip where someElement is the parent container.
 	myFlip.flip(); //flip it.
