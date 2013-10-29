@@ -2,17 +2,17 @@
 
   A flip component for displaying two sided content. Compatible with [component package manager](https://github.com/component/component).
 
-## Demo
+## demo
 	
 A demo of flip can be seen [here](http://jsfiddle.net/qCfVH/).
 
-## Installation
+## installation
 
   Install with [component(1)](http://component.io):
 
     $ component install jheytompkins/flip
 
-##Usage
+##usage
 ###element structure
 Use with an element structure like the following:
 
@@ -46,12 +46,15 @@ Refer to the [demo](http://jsfiddle.net/qCfVH/) or message me if you're stuck :)
 
 flip will flip horizontally by default but if you want vertical flipping, simply add the class `vertical` to your flip element.
 
-## API
+## api
 
 ###flip()
 
 Simply flip your flip.
 
-## License
+##contributions
+and suggestions are of course welcome :)
+
+## license
 
   MIT
