@@ -10,7 +10,7 @@ A demo of flip can be seen [here](http://jsfiddle.net/qCfVH/).
 
   Install with [component(1)](http://component.io):
 
-    $ component install jheytompkins/flip
+    $ component install jh3y/flip
 
 ##usage
 ###element structure
