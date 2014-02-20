@@ -1,0 +1,12 @@
+{
+  "name": "jh3y-flip",
+  "description": "A flip card component compatible with component package manager.",
+  "version": "0.0.1",
+  "keywords": [],
+  "main": "index.js",
+  "styles": [
+    "flip.css"
+  ],
+  "dependencies": {},
+  "license": "MIT"
+}
